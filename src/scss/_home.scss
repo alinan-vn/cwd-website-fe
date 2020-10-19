@@ -1,26 +1,21 @@
 .home {
-    font-family: avenir;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    display: flex;
-    width: 89%;
-    // display: grid;
+    font-family: $paragraph-font;
+    // margin-top: 2rem;
+    // margin-bottom: 2rem;
+    // display: flex;
+    // width: 89%;
 
     &__title {
-        padding-left: 8vw;
+        // padding-left: 8vw;
         font-size: 2.5rem;
-        // grid-area: top;
-        grid-gap: 2rem;
     }
 
     &__tagline {
-        // grid-area: bottom;
         font-size: medium;
     }  
     
     &__wide-image {
-        width: auto;
+        width: 100%;
+        height: auto;
     }
-
-    
 }

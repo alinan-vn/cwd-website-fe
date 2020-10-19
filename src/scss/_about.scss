@@ -25,9 +25,11 @@
     }
 
     &__team {
-        display: grid;
-        grid-template: 'left middle right';
-        grid-gap: 3rem;
+        // display: grid;
+        // grid-template: 'left middle right';
+        // grid-gap: 3rem;
+
+        display: flex;
 
         &:hover .about__team-card {
             transform: translateX(-5%);
