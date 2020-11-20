@@ -1,7 +1,7 @@
 import React from 'react';
 
 class About extends React.Component{
-
+    // sample comment to keep the code un altered
     constructor(){
         super()
         this.state = {
